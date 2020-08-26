@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<title>REGISTER PG OWNER</title>
+
+
+</head>
+
+<body>
+                                                    
+                                                                   
+<form action="#" th:action="@{/mypg/registerPGOwner}" th:object="${pgOwnerBean}" method="POST"> 
+
+<h1>insdie form 22</h1>
+<label th:if="${#fields.hasErrors('firstName')}"  th:errors="*{firstName}"> </label>   
+
+<h1 align="center">MANDATORY FIELDS</h1>
+<table >
+
+<tr>
+<td>
+FIRST NAME
+</td>
+
+
+
+<td>
+
+
+<input type="text" th:field="*{firstName}"/>     
+<!-- <label th:if="${#fields.hasErrors('userId')}"  th:errors="*{userId}"> </label>             -->
+<label th:if="${#fields.hasErrors('firstName')}"  th:errors="*{firstName}"> </label>   
+                                                              
+ <p th:if="${#fields.hasErrors('firstName')}"  th:errors="*{firstName}"> </p>   
+</td>
+</tr>
+<tr>
+<td>
+PHONE NUMBER
+</td>
+<td>
+
+<input type="text" th:field="*{phoneNumber}"/>       
+<label th:if="${#fields.hasErrors('phoneNumber')}"  th:errors="*{phoneNumber}"> </label>
+
+<label th:if="${#fields.hasErrors('phoneNumber')}"  th:errors="*{pgOwnerBean.phoneNumber}"> </label>
+</td>
+
+
+</tr>
+
+
+
+<tr>
+<td colspan="2" align="center">
+
+
+<input type="submit" th:value="submit"/>
+<input type="reset" th:value="reset"/>
+</td>
+</tr>
+
+
+</table>
+</form>
+
+</body>
+</html>

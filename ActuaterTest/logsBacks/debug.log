@@ -1,0 +1,24 @@
+17-12-2019 18:29:15 - Starting ActuaterTestApplication on chetan-Lenovo-G40-45 with PID 7864 (/media/chetan/WORK1/2019_NOV_STS_WORKSPACE/ActuaterTest/target/classes started by chetan in /media/chetan/WORK1/2019_NOV_STS_WORKSPACE/ActuaterTest)
+17-12-2019 18:29:15 - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+17-12-2019 18:29:15 - No active profile set, falling back to default profiles: default
+17-12-2019 18:29:23 - Started ActuaterTestApplication in 9.344 seconds (JVM running for 11.057)
+17-12-2019 18:29:23 - SLF4j logger debug
+17-12-2019 18:29:23 - SLF4j logger warn
+17-12-2019 18:29:23 - SLF4j logger error
+17-12-2019 18:29:23 - SLF4j logger info
+17-12-2019 18:56:21 - Starting ActuaterTestApplication on chetan-Lenovo-G40-45 with PID 8102 (/media/chetan/WORK1/2019_NOV_STS_WORKSPACE/ActuaterTest/target/classes started by chetan in /media/chetan/WORK1/2019_NOV_STS_WORKSPACE/ActuaterTest)
+17-12-2019 18:56:21 - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+17-12-2019 18:56:21 - No active profile set, falling back to default profiles: default
+17-12-2019 18:56:26 - Started ActuaterTestApplication in 5.786 seconds (JVM running for 7.521)
+17-12-2019 18:56:26 - SLF4j logger debug
+17-12-2019 18:56:26 - SLF4j logger warn
+17-12-2019 18:56:26 - SLF4j logger error
+17-12-2019 18:56:26 - SLF4j logger info
+17-12-2019 19:00:00 - Starting ActuaterTestApplication on chetan-Lenovo-G40-45 with PID 8256 (/media/chetan/WORK1/2019_NOV_STS_WORKSPACE/ActuaterTest/target/classes started by chetan in /media/chetan/WORK1/2019_NOV_STS_WORKSPACE/ActuaterTest)
+17-12-2019 19:00:00 - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+17-12-2019 19:00:00 - No active profile set, falling back to default profiles: default
+17-12-2019 19:00:09 - Started ActuaterTestApplication in 9.684 seconds (JVM running for 11.296)
+17-12-2019 19:00:09 - SLF4j logger debug
+17-12-2019 19:00:09 - SLF4j logger warn
+17-12-2019 19:00:09 - SLF4j logger error
+17-12-2019 19:00:09 - SLF4j logger info

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Nov 27 19:22:20 IST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-016e-ad22-5181-000008630220 
+on database directory memory:/media/chetan/WORK1/2019_NOV_STS_WORKSPACE/HelloSpringBootWorld/testdb with class loader sun.misc.Launcher$AppClassLoader@3d4eac69 
+Loaded from file:/home/chetan/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_212-8u212-b03-0ubuntu1.18.04.1-b03
+user.dir=/media/chetan/WORK1/2019_NOV_STS_WORKSPACE/HelloSpringBootWorld
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-48-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

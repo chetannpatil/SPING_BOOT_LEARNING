@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Chetan Thymleaf</title>
+</head>
+<body>
+<h1>Cretae user</h1>
+<form action="#" th:action="@{/mypg/registerPGOwner}" th:object="${owner}" method="POST"> 
+
+
+<input type="text" th:field="*{firstName}"/>
+
+<label th:if="${#fields.hasErrors('firstName')}"  th:errors="*{firstName}"> </label>
+
+
+
+
+<input type="text" th:field="*{phoneNumber}"/>
+
+<label th:if="${#fields.hasErrors('phoneNumber')}"  th:errors="*{phoneNumber}">
+</label>
+
+
+
+
+<input type="submit" th:value="submit"/>
+<input type="reset" th:value="reset"/>
+
+
+
+</form>
+</body>
+</html>

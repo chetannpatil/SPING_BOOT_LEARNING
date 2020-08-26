@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>USER INFO CHETaN</title>
+</head>
+<body>
+<table>
+<tr>
+<th>userId</th>
+
+<th>userName</th>
+<th>gender</th>
+
+<th>married</th>
+
+<th>selected 
+profile</th>
+
+</tr>
+
+<tr th:each="user : ${allUsers}">
+<td th:text="${user.userId}">Id</td>
+<td th:text="${user.userName}">title</td>
+<td th:text="${user.gender}">gender</td>
+<td th:text="${user.married}">married</td>
+<td th:text="${user.profile}">profile</td>
+
+</tr>
+</table>
+
+<a href="#" th:href="@{/user/createUser}">Add User</a>
+</body>
+</html>
